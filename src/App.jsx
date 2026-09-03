@@ -1,11 +1,8 @@
-import './App.css'
+import NavBar from './pages/NavBar.jsx'
+import './style.css'
 
 function App() {
-  return (
-    <div className="centered-container">
-      <h1>Welcome This is demo project</h1>
-    </div>
-  )
+  return <NavBar />
 }
 
 export default App
